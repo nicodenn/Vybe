@@ -1,12 +1,16 @@
 ### Vybe's Day, Week, and Emotion Classes ###
   #  Written by Joe Hart and Nico Dennis  #
 
+"""
+Object oriented concepts used:
+- Classes
+- Objects
+"""
 from datetime import datetime
 from queue import Queue
 import pickle
 
 class Emotion:
-    
     def __init__(self, name):
         self.name = name
         self.vybeScore = 0 #a sum of all durations of the emotion * those durations' intensity

@@ -9,6 +9,11 @@ from DayAndEmotion import PickleHelper
 
 from infoHelper import InfoHelper
 
+"""
+Object oriented concepts used:
+- Classes
+- Objects
+"""
 ph = PickleHelper()
 ih = InfoHelper()
 

@@ -3,6 +3,9 @@ import numpy as np
 """
 Date: 5/8/20
 Author: Tatiana Barbone
+Object oriented concepts used:
+- Objects
+- Classes
 """
 class InfoHelper:
     def __init__(self):
